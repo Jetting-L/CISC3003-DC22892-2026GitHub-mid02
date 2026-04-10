@@ -126,7 +126,7 @@ $orders = $selectedCustomer ? readOrders($selectedCustomer, 'data/orders.txt') :
 
                             <div class="mdl-card__supporting-text">
                                 <?php if ($selectedCustomer): ?>
-                                    <h4><?php echo h($selectedCustomer['first_name'] . ' ' . $selectedCustomer['last_name']); ?></h4>
+                                    <h3><?php echo h($selectedCustomer['first_name'] . ' ' . $selectedCustomer['last_name']); ?></h3>
 
                                     <p class="detail-line">
                                         <strong>Email:</strong>
